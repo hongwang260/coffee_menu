@@ -16,7 +16,7 @@
     }
 
     .menu {
-      max-width: 400px;
+      max-width: 600px;
       width: 100%;
       border: 2px solid #ccc;
       border-radius: 12px;
@@ -27,7 +27,7 @@
 
     .menu h1 {
       text-align: center;
-      margin-bottom: 24px;
+      margin-bottom: 0px;
       font-size: 28px;
     }
 
@@ -51,35 +51,30 @@
       font-size: 14px;
       display: block;
     }
+
+    .menu-description {
+      text-align: center;
+      margin-bottom: 24px;
+      margin-top: -20px;
+      font-style: italic;
+      color: #555;
+    }
   </style>
 </head>
 <body>
   <div class="menu">
     <h1>Drink Menu</h1>
+    <div class="menu-description"><p>Served daily from 10am-5pm</p></div>
 
-    <div class="section-title"><strong>Espresso Drinks</strong></div>
+    <div class="section-title"><strong>Coffee</strong></div>
     <div class="menu-item">
       <div>
-        <text>Espresso (San-to Blend: Ethiopia & Columbia)</text>
+        <text>Espresso (Blend: Ethiopia & Columbia)</text>
         <span class="description">Notes: Dark Chocolate | Molasses | Red Wine | Dried Berries | Thick & Syrupy</span>
         <span class="description">Roast Level: Dark</span>
         <span class="description">Process: Washed</span>
       </div>
       <div>$4.5</div>
-    </div>
-    <div class="menu-item">
-      <div>
-        <text>Espresso Tonic</text>
-        <span class="description">A shot of espresso with tonic water</span>
-      </div>
-      <div>$6</div>
-    </div>
-    <div class="menu-item">
-      <div>
-        <text>Crème Brûlée Latte (Dine-In ONLY)</text>
-        <span class="description">Latte with a burnt sugar crust topping</span>
-      </div>
-      <div>$8</div>
     </div>
     <div class="menu-item">
       <div>
@@ -101,6 +96,7 @@
       </div>
       <div>$5.5</div>
     </div>
+    
     <div class="menu-item">
       <div>
         <text>Cold Brew</text>
@@ -147,4 +143,25 @@
     </div>
 
     <div class="section-title"><strong>Tea</strong></div>
+        <div class="menu-item">
+          <div>
+            <text>Matcha Latte</text>
+            <span class="description">hot/iced</span>
+          </div>
+          <div>$7</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <text>Hojicha Latte</text>
+            <span class="description">hot/iced</span>
+          </div>
+          <div>$7</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <text>Matcha Tonic</text>
+            <span class="description">Ceremonial grade matcha with tonic water</span>
+          </div>
+          <div>$8</div>
+        </div>
     <div class="menu-item">
